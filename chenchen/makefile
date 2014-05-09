@@ -1,4 +1,4 @@
-all:text test clean
+all:text test 
 test:test.o 
 	gcc -o test test.o
 text:text.o
